@@ -1,0 +1,99 @@
+header{
+    text-align: center;
+    background-color: rgb(22, 24, 135);
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: rgb(82, 171, 226);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(78, 139, 183);
+}
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.mymain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;             
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-card{
+    width: 460px;
+    border: 1px solid #000;
+    padding: 8px 10px 10px;
+    font-size: 13px;
+}
+
+.about-card h2{
+    margin: 0 0 6px;
+    font-size: 16px;
+}
+
+.about-body{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.image-left {
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.textbox h3{
+    margin: 0px;
+    font-size:13px;
+}
+
+.textbox p{
+    margin: 0 0 5px;
+    font-size:13px;
+}
+
+.life-container{
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;
+    flex: 1;
+}
+
+
+.background-hr-light-blue{
+    background-color: #87cefa;
+    height: 7px;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+.favorites img{
+    width: 150px;
+    height: auto;
+}
+
+
